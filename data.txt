@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "name" : "Huteb Micro 2A",
+      "cat" : "Waterproofing",
+      "shortdescription" : "Rapid setting material for fast plugging",
+      "longdescription" : "Ready to use waterproofing liquid. When mixed with cement, sets in 30 to 40 seconds to seal severe water infiltrations",
+      "uses" :[
+        "Rock masonary and manholes",
+        "Joint filling, Pointing between concrete segments in concrete and brick tunnels, sewage systems pipes and mines",
+        "Stops active water or seepage under pressure through joints, cracks and holes in concrete or masonary where a normal mortar would be washed away",
+        "In Construction joints",
+        "For instant sewer connections"
+      ],
+      "benefits" : [
+        "The use of HUTEBMICRO 2A enables the stemming of severe water infiltration or out flow in mines, water reservoirs, manholes etc. In water retaining structure damage condition it acts as emergency water stopping.",
+        "Excellent bond to the substrate where applied.",
+        "It produces low exothermic heat which reduces thermal cracking",
+        "Contains no chloride admixtures"
+      ],
+      "instructions" : [
+        "Surfaces should be thoroughly cleaned, roughened and washed with fresh, clean water to remove any dirt, debris, loose, particles or contaminants. Level off any sharp surface protrusions.",
+        "Cracks and fissures may need to be enlarged to increase the bond. Chasing out to achieve a slight dovetail effect is ideal.",
+        "Place HUTEBMICRO 2A into a rubber bowl and then add the fresh cement Stir briefly for a few seconds.",
+        "Form the paste by hand into a tapered plug and place it immediately into the hole pressing firmly for 30-40 seconds until hard.",
+        "After application of the paste it should be covered with a splatter coat of cement rich mortar containing coarse sand if a sub sequent coating of waterproof plaster or gunite is to be applied.",
+        "In areas of medium to heavy water infiltration plastic tubing should be fitted in to the wall at appropriate positions and left protruding through the render. This will alleviate any back pressure until the render has fully hardened."
+      ]
+    }
+  ]
+}
+
+					<div id="{{product.id}}" class="row mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
+						<div class="col">
+							<div class="d-flex flex-wrap bg-light box-shadow-4 custom-link-hover-effects">
+								<div class="position-relative lazyload col-12 col-md-4" data-bg-src="img/demos/business-consulting-3/team/team-1.jpg" style="background-position: center; background-size: cover; min-height: 320px;">
+									<div class="position-absolute bottom-0 left-0 w-100 py-3 px-4 z-index-3">
+										<div class="custom-crooked-line">
+											<img width="154" height="26" src="img/demos/business-consulting-3/icons/infinite-crooked-line.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" style="width: 154px;" />
+										</div>
+									</div>
+								</div>
+								<div class="col-md-8 p-5">
+									<div class="d-flex justify-content-between justify-content-md-start mb-4">
+										<div>
+											<h2 class="font-weight-semibold text-6 line-height-1 mb-0">{{product.name}}</h2>
+											<p class="text-3-5 mb-0">{{product.category}}</p>
+										</div>
+										<div class="bg-color-grey ms-4 me-1 d-none d-md-block" style="width: 8px;"></div>
+									</div>
+									<div class="custom-read-more-style-1" data-plugin-readmore
+										data-plugin-options="{
+											'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
+											'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
+											'maxHeight': 160
+										}">
+										<p class="text-3-5">{{product.description}}</p>
+										<div class="accordion custom-accordion-style-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" id="accordion1">
+											<div class="card card-default">
+												<div class="card-header" id="collapse1HeadingOne">
+													<h4 class="card-title m-0">
+														<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="false" aria-controls="collapse1One">
+															Uses of {{productname}}
+														</a>
+													</h4>
+												</div>
+												<div id="collapse1One" class="collapse" aria-labelledby="collapse1HeadingOne" data-bs-parent="#accordion1">
+													<div class="card-body">
+														<p class="mb-0">{{product.uses}}</p>
+													</div>
+												</div>
+											</div>
+											<div class="card card-default">
+												<div class="card-header" id="collapse1HeadingTwo">
+													<h4 class="card-title m-0">
+														<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
+															Benefits of {{product.name}}
+														</a>
+													</h4>
+												</div>
+												<div id="collapse1Two" class="collapse" aria-labelledby="collapse1HeadingTwo" data-bs-parent="#accordion1">
+													<div class="card-body">
+														<p class="mb-0">{{product.benefits}}</p>
+													</div>
+												</div>
+											</div>
+											<div class="card card-default">
+												<div class="card-header" id="collapse1HeadingThree">
+													<h4 class="card-title m-0">
+														<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
+															Instruction of using {{product.name}}
+														</a>
+													</h4>
+												</div>
+												<div id="collapse1Three" class="collapse" aria-labelledby="collapse1HeadingThree" data-bs-parent="#accordion1">
+													<div class="card-body">
+														<p class="mb-0">{{product.instructions}}</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="readmore-button-wrapper d-none">
+											<a href="#" class="text-decoration-none">
+												View More
+												<i class="fas fa-chevron-down"></i>
+											</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>

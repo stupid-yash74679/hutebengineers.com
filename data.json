@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Huteb mortar EP / EPOXY MORTAR",
+      "cat": "",
+      "shortdescription": "asdasdasdasdasd",
+      "longdescription": "asdasdasdasdasdasd",
+      "uses": [
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point",
+        "Point"
+      ]
+    }
+  ]
+}
